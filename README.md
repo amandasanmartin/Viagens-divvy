@@ -5,7 +5,7 @@ O objetivo é identificar **como os usuários casuais e os membros anuais utiliz
 
 ---
 
-## 🔍 Etapas do Projeto
+## Etapas do Projeto
 Seguindo o processo de análise de dados:
 1. **Ask** – Definição das perguntas de negócio  
 2. **Prepare** – Coleta e organização dos dados  
@@ -16,13 +16,13 @@ Seguindo o processo de análise de dados:
 
 ---
 
-## 🛠️ Tecnologias utilizadas
+##  Tecnologias utilizadas
 - **SQL** → consultas e tratamento inicial dos dados  
 - **Python (Pandas, Matplotlib, Seaborn)** → limpeza, análise e visualização 
 
 ---
 
-## 📊 Principais Resultados
+## Principais Resultados
 - Identificação de padrões distintos entre usuários casuais e membros anuais  
 - Recomendações de ações para aumentar a taxa de conversão
 - Foram feitas comparações entre **usuários casuais** e **membros anuais** considerando:
