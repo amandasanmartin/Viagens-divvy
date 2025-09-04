@@ -1,4 +1,4 @@
-# 🚲 Cyclistic Bike-Share Analysis
+# Cyclistic Bike-Share Analysis
 
 Este repositório contém a análise de dados do **caso de estudo fictício da empresa Cyclistic**, uma companhia de compartilhamento de bicicletas em Chicago.  
 O objetivo é identificar **como os usuários casuais e os membros anuais utilizam o serviço de forma diferente**, gerando insights que apoiem o time de marketing na **conversão de usuários casuais em membros anuais**.
