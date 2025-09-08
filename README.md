@@ -82,4 +82,4 @@ Comparação das estações mais usadas para início e fim das viagens.
 
 ## Dados
 - Imagens dos gráficos e dados estão disponibilizados nas ramificações desse repositório.
-- A análise completa está no relatório. [link]https://github.com/amandasanmartin/Viagens-divvy/blob/main/an%C3%A1lise.pdf
+- A análise completa está no relatório. [link](https://github.com/amandasanmartin/Viagens-divvy/blob/main/an%C3%A1lise.pdf)
