@@ -1,0 +1,22 @@
+## 📊 Dados
+
+Os dados utilizados neste projeto estão disponibilizados publicamente pela [Divvy Bikes](https://divvybikes.com/system-data).
+
+Devido ao tamanho dos arquivos tratados (com até ~1GB cada), eles não estão armazenados neste repositório.  
+Você pode acessá-los diretamente no link abaixo:
+
+🔗 [Clique aqui para acessar os dados no Google Drive](https://drive.google.com/drive/folders/1fHbAX8eauaMZQLMfK-QcnmM07ha0oaOZ?hl=pt-BR)
+
+> ⚠️ Os arquivos estão organizados por ano (2021, 2022, 2023 e 2024). 
+
+Link para o banco de dados completo:
+https://console.cloud.google.com/bigquery?inv=1&invt=Ab4lFQ&project=emerald-state-459700-a7&ws=!1m4!1m3!3m2!1semerald-state-459700-a7!2sbiketrips
+
+Link para os bancos com as agregações:
+https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1semerald-state-459700-a7!2s2021_analysis
+https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1semerald-state-459700-a7!2s2022_analysis
+https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1semerald-state-459700-a7!2s2023_analysis
+https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1semerald-state-459700-a7!2s2024_analysis
+
+
+
