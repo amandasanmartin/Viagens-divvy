@@ -1,0 +1,47 @@
+O ano de 2021 está como exemplo, a limpeza e padronização também foi realizada nos anos de 2022 a 2024.
+-- Corrigir e padronizar o member casual
+SELECT
+  column_name, data_type
+FROM `emerald-state-459700-a7.biketrips.viagens_2021`
+WHERE table_name = 'viagens_2021';
+
+  -- Conversão das viagens em minutos
+CREATE OR REPLACE TABLE `emerald-state-459700-a7.biketrips.2021_limpa` AS
+SELECT *,
+       TIMESTAMP_DIFF(ended_at, started_at, MINUTE) AS duracao_min
+FROM `emerald-state-459700-a7.biketrips.viagens_2021;
+
+  -- Preenchimento das estações com valores nulos
+CREATE OR REPLACE TABLE `emerald-state-459700-a7.biketrips.2021_final` AS
+SELECT
+  *,
+  IFNULL(start_station_name, 'Estação Desconhecida') AS start_station_name,
+  IFNULL(end_station_name, 'Estação Desconhecida') AS end_station_name
+FROM `emerald-state-459700-a7.biketrips.2021_limpa`;
+
+ -- Verificar se ainda há registros com valores nulos
+SELECT
+  COUNT(*) AS total,
+  COUNTIF(start_station_name IS NULL) AS origem_nula,
+  COUNTIF(end_station_name IS NULL) AS destino_nula,
+  COUNTIF(tipo_uso IS NULL) AS tipo_uso_nulo
+FROM `emerald-state-459700-a7.biketrips.2021_final`;
+
+-- Verificar a porcentagem de registros nulos
+SELECT
+  COUNT(*) AS total,
+  COUNTIF(start_station_name IS NULL) AS origem_nula,
+  ROUND(COUNTIF(start_station_name IS NULL) * 100.0 / COUNT(*), 2) AS perc_origem_nula,
+  COUNTIF(end_station_name IS NULL) AS destino_nula,
+  ROUND(COUNTIF(end_station_name IS NULL) * 100.0 / COUNT(*), 2) AS perc_destino_nula
+FROM `emerald-state-459700-a7.biketrips.2021_final`;
+
+-- Remoção de registros inválidos
+CREATE OR REPLACE TABLE `emerald-state-459700-a7.biketrips.viagens_2021` AS
+SELECT *
+FROM `emerald-state-459700-a7.biketrips.2021_final`
+WHERE duracao_min > 0
+  AND duracao_min <= 1440
+  AND started_at <= ended_at
+  AND start_lat IS NOT NULL AND start_lng IS NOT NULL
+  AND end_lat IS NOT NULL AND end_lng IS NOT NULL;

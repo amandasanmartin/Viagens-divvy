@@ -1,0 +1,81 @@
+Segue o ano de 2021 como exemplo, as agregações também foram realizadas para os anos de 2022 a 2024.
+-- Resumo geral dos tipos de usuário
+SELECT tipo_uso, COUNT(*) AS total
+FROM `emerald-state-459700-a7.biketrips.viagens_2021`
+GROUP BY tipo_uso;
+
+-- Distribuição por tipo de bicicleta
+SELECT
+  rideable_type,
+  tipo_uso,
+  COUNT(*) AS total
+FROM `emerald-state-459700-a7.biketrips.viagens_2021`
+GROUP BY rideable_type, tipo_uso
+ORDER BY total DESC;
+
+-- Uso por dia da semana
+SELECT
+  tipo_uso,
+  FORMAT_DATE('%A', DATE(started_at)) AS dia_semana,
+  COUNT(*) AS total
+FROM `emerald-state-459700-a7.biketrips.viagens_2021`
+GROUP BY tipo_uso, dia_semana
+ORDER BY tipo_uso, total DESC;
+
+-- Horário de pico por tipo de usuário
+SELECT
+  tipo_uso,
+  EXTRACT(HOUR FROM started_at) AS hora,
+  COUNT(*) AS total
+FROM `emerald-state-459700-a7.biketrips.viagens_2021
+GROUP BY tipo_uso, hora
+ORDER BY tipo_uso, hora;
+
+-- Estações de origem por tipo de membro
+SELECT
+  COALESCE(start_station_name2, start_station_name) AS estacao_origem,
+  tipo_uso,
+  COUNT(*) AS total_viagens
+FROM `emerald-state-459700-a7.biketrips.viagens_2021`
+GROUP BY estacao_origem
+ORDER BY total_viagens DESC
+LIMIT 10;
+
+-- Estação de destino por tipo de membro
+SELECT
+  COALESCE(end_station_name2, endstart_station_name) AS estacao_destino,
+  tipo_uso,
+  COUNT(*) AS total_viagens
+FROM `emerald-state-459700-a7.biketrips.viagens_2021`
+GROUP BY estacao_origem
+ORDER BY total_viagens DESC
+LIMIT 10;
+
+-- Duração média por tipo de membro e bike
+SELECT
+  tipo_uso,
+  rideable_type,
+  ROUND(AVG(duracao_min), 2) AS duracao_media_min
+FROM `emerald-state-459700-a7.biketrips.viagens_2021`
+GROUP BY tipo_uso, rideable_type
+ORDER BY tipo_uso, duracao_media_min DESC;
+
+-- Estações de origem mais usadas por dia da semana
+SELECT
+  FORMAT_DATE('%A', DATE(started_at)) AS dia_semana,
+  COALESCE(start_station_name, start_station_name2) AS estacao_origem,
+  COUNT(*) AS total_viagens
+FROM `emerald-state-459700-a7.biketrips.viagens_2021`
+GROUP BY dia_semana, estacao_origem
+ORDER BY dia_semana, total_viagens DESC;
+
+-- Estações de destino mais usadas por dia da semana
+-- Estações de origem mais usadas por dia da semana
+SELECT
+  FORMAT_DATE('%A', DATE(started_at)) AS dia_semana,
+  COALESCE(start_station_name, start_station_name2) AS estacao_origem,
+  COUNT(*) AS total_viagens
+FROM `emerald-state-459700-a7.biketrips.viagens_2021`
+GROUP BY dia_semana, estacao_origem
+ORDER BY dia_semana, total_viagens DESC;
+

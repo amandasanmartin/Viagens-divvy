@@ -1,0 +1,106 @@
+A união das tabelas também foi realizada nos anos de 2022 a 2024, tomando o ano de 2021 como exemplo
+-- Une os dados mensais de 2021 em uma única tabela
+CREATE TABLE `emerald-state-459700.emerald-state-459700-a7.biketrips.viagens_2021` AS
+SELECT * FROM `emerald-state-459700.emerald-state-459700-a7.biketrips.2021_1`
+UNION ALL
+SELECT * FROM `emerald-state-459700.emerald-state-459700-a7.biketrips.2021_2`
+UNION ALL
+SELECT * FROM `emerald-state-459700.emerald-state-459700-a7.biketrips.2021_3`
+UNION ALL
+SELECT * FROM `emerald-state-459700.emerald-state-459700-a7.biketrips.2021_4`
+UNION ALL
+SELECT * FROM `emerald-state-459700.emerald-state-459700-a7.biketrips.2021_5`
+UNION ALL
+SELECT * FROM `emerald-state-459700.emerald-state-459700-a7.biketrips.2021_6`
+UNION ALL
+SELECT * FROM `emerald-state-459700.emerald-state-459700-a7.biketrips.2021_7`
+UNION ALL
+SELECT * FROM `emerald-state-459700.emerald-state-459700-a7.biketrips.2021_8`
+UNION ALL
+SELECT * FROM `emerald-state-459700.emerald-state-459700-a7.biketrips.2021_9`
+UNION ALL
+SELECT * FROM `emerald-state-459700.emerald-state-459700-a7.biketrips.2021_10`
+UNION ALL
+SELECT * FROM `emerald-state-459700.emerald-state-459700-a7.biketrips.2021_11`
+UNION ALL
+SELECT * FROM `emerald-state-459700.emerald-state-459700-a7.biketrips.2021_12`;
+
+-- Une os dados mensais de 2022 em uma única tabela
+CREATE TABLE `emerald-state-459700.emerald-state-459700-a7.biketrips.viagens_2022` AS
+SELECT * FROM `emerald-state-459700.emerald-state-459700-a7.biketrips.2022_1`
+UNION ALL
+SELECT * FROM `emerald-state-459700.emerald-state-459700-a7.biketrips.20221_2`
+UNION ALL
+SELECT * FROM `emerald-state-459700.emerald-state-459700-a7.biketrips.2022_3`
+UNION ALL
+SELECT * FROM `emerald-state-459700.emerald-state-459700-a7.biketrips.2022_4`
+UNION ALL
+SELECT * FROM `emerald-state-459700.emerald-state-459700-a7.biketrips.2022_5`
+UNION ALL
+SELECT * FROM `emerald-state-459700.emerald-state-459700-a7.biketrips.2022_6`
+UNION ALL
+SELECT * FROM `emerald-state-459700.emerald-state-459700-a7.biketrips.2022_7`
+UNION ALL
+SELECT * FROM `emerald-state-459700.emerald-state-459700-a7.biketrips.2022_8`
+UNION ALL
+SELECT * FROM `emerald-state-459700.emerald-state-459700-a7.biketrips.2022_9`
+UNION ALL
+SELECT * FROM `emerald-state-459700.emerald-state-459700-a7.biketrips.2022_10`
+UNION ALL
+SELECT * FROM `emerald-state-459700.emerald-state-459700-a7.biketrips.2022_11`
+UNION ALL
+SELECT * FROM `emerald-state-459700.emerald-state-459700-a7.biketrips.2022_12`;
+
+-- Une os dados mensais de 2023 em uma única tabela
+CREATE TABLE `emerald-state-459700.emerald-state-459700-a7.biketrips.viagens_2023` AS
+SELECT * FROM `emerald-state-459700.emerald-state-459700-a7.biketrips.2023_1`
+UNION ALL
+SELECT * FROM `emerald-state-459700.emerald-state-459700-a7.biketrips.2023_2`
+UNION ALL
+SELECT * FROM `emerald-state-459700.emerald-state-459700-a7.biketrips.2023_3`
+UNION ALL
+SELECT * FROM `emerald-state-459700.emerald-state-459700-a7.biketrips.2023_4`
+UNION ALL
+SELECT * FROM `emerald-state-459700.emerald-state-459700-a7.biketrips.2023_5`
+UNION ALL
+SELECT * FROM `emerald-state-459700.emerald-state-459700-a7.biketrips.2023_6`
+UNION ALL
+SELECT * FROM `emerald-state-459700.emerald-state-459700-a7.biketrips.2023_7`
+UNION ALL
+SELECT * FROM `emerald-state-459700.emerald-state-459700-a7.biketrips.2023_8`
+UNION ALL
+SELECT * FROM `emerald-state-459700.emerald-state-459700-a7.biketrips.2023_9`
+UNION ALL
+SELECT * FROM `emerald-state-459700.emerald-state-459700-a7.biketrips.2023_10`
+UNION ALL
+SELECT * FROM `emerald-state-459700.emerald-state-459700-a7.biketrips.2023_11`
+UNION ALL
+SELECT * FROM `emerald-state-459700.emerald-state-459700-a7.biketrips.2023_12`;
+
+-- Une os dados mensais de 2024 em uma única tabela
+CREATE TABLE `emerald-state-459700.emerald-state-459700-a7.biketrips.viagens_2024` AS
+SELECT * FROM `emerald-state-459700.emerald-state-459700-a7.biketrips.2024_1`
+UNION ALL
+SELECT * FROM `emerald-state-459700.emerald-state-459700-a7.biketrips.2024_2`
+UNION ALL
+SELECT * FROM `emerald-state-459700.emerald-state-459700-a7.biketrips.2024_3`
+UNION ALL
+SELECT * FROM `emerald-state-459700.emerald-state-459700-a7.biketrips.2024_4`
+UNION ALL
+SELECT * FROM `emerald-state-459700.emerald-state-459700-a7.biketrips.2024_5`
+UNION ALL
+SELECT * FROM `emerald-state-459700.emerald-state-459700-a7.biketrips.2024_6`
+UNION ALL
+SELECT * FROM `emerald-state-459700.emerald-state-459700-a7.biketrips.2024_7`
+UNION ALL
+SELECT * FROM `emerald-state-459700.emerald-state-459700-a7.biketrips.2024_8`
+UNION ALL
+SELECT * FROM `emerald-state-459700.emerald-state-459700-a7.biketrips.2024_9`
+UNION ALL
+SELECT * FROM `emerald-state-459700.emerald-state-459700-a7.biketrips.2024_10`
+UNION ALL
+SELECT * FROM `emerald-state-459700.emerald-state-459700-a7.biketrips.2024_11`
+UNION ALL
+SELECT * FROM `emerald-state-459700.emerald-state-459700-a7.biketrips.2024_12`;
+
+
