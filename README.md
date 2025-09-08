@@ -19,7 +19,7 @@ Este relatório analisa os **dados históricos de viagens** para identificar pad
 ---
 
 ## 1. Evolução Mensal
-[[Uso mensal](https://github.com/amandasanmartin/Viagens-divvy/blob/Imagens/meses_resumo.png)
+[Uso mensal](https://github.com/amandasanmartin/Viagens-divvy/blob/Imagens/meses_resumo.png)
 
  **Insight:**  
 - Picos de uso durante a primavera / verão.  
@@ -28,7 +28,7 @@ Este relatório analisa os **dados históricos de viagens** para identificar pad
 ---
 
 ## 2. Comportamento Semanal
-[Uso semanal] (https://github.com/amandasanmartin/Viagens-divvy/blob/Imagens/semana_resumo.png)
+[Uso semanal](https://github.com/amandasanmartin/Viagens-divvy/blob/Imagens/semana_resumo.png)
  **Insight:**  
 - **Membros**: uso estável durante a semana com picos de terça a quinta (trabalho/estudo)  
 - **Casuais**: concentração em finais de semana (lazer).
@@ -37,10 +37,10 @@ Este relatório analisa os **dados históricos de viagens** para identificar pad
 ---
 
 ## 3. Estações Mais Populares
-[Estações](https://github.com/amandasanmartin/Viagens-divvy/blob/Imagens/origem_resumo1.png)
-          (https://github.com/amandasanmartin/Viagens-divvy/blob/Imagens/origem_resumo2.png)
-          (https://github.com/amandasanmartin/Viagens-divvy/blob/Imagens/destino_resumo1.png)
-          (https://github.com/amandasanmartin/Viagens-divvy/blob/Imagens/destino_resumo2.png)
+[Estações origem](https://github.com/amandasanmartin/Viagens-divvy/blob/Imagens/origem_resumo1.png)
+[Estações origem](https://github.com/amandasanmartin/Viagens-divvy/blob/Imagens/origem_resumo2.png)
+[Estações destino](https://github.com/amandasanmartin/Viagens-divvy/blob/Imagens/destino_resumo1.png)
+[Estações destino](https://github.com/amandasanmartin/Viagens-divvy/blob/Imagens/destino_resumo2.png)
 Comparação das estações mais usadas para início e fim das viagens.  
 
 **Insight:**  
@@ -48,13 +48,11 @@ Comparação das estações mais usadas para início e fim das viagens.
 - Membros → foco em estações próximas a áreas residenciais e comerciais.
 - QR Code em estações de parques/pontos turísticos oferecendo promoções para assinatura / parceria com pontos turísticos.
 
-
 ---
 
 ## Tipo de Bicicleta
-![Preferência por tipo de bicicleta]
-(https://github.com/amandasanmartin/Viagens-divvy/blob/Imagens/bikes_resumo1.png)
-(https://github.com/amandasanmartin/Viagens-divvy/blob/Imagens/bikes_resumo1.png)
+[Tipos de bicicleta](https://github.com/amandasanmartin/Viagens-divvy/blob/Imagens/bikes_resumo1.png)
+[Tipos de bicicleta](https://github.com/amandasanmartin/Viagens-divvy/blob/Imagens/bikes_resumo1.png)
 
 
  **Insight:**  
@@ -66,9 +64,8 @@ Comparação das estações mais usadas para início e fim das viagens.
 ---
 
 ## 5. Duração Média ao Longo do Dia
-![Duração média ao longo do dia]
-(https://github.com/amandasanmartin/Viagens-divvy/blob/Imagens/dia_Resumo1.png)
-(https://github.com/amandasanmartin/Viagens-divvy/blob/Imagens/dia_resumo1.png)
+[Duração média ao longo do dia](https://github.com/amandasanmartin/Viagens-divvy/blob/Imagens/dia_Resumo1.png)
+[Duração média ao longo do dia](https://github.com/amandasanmartin/Viagens-divvy/blob/Imagens/dia_resumo1.png)
 
  **Insight:**  
 - Casuais fazem viagens mais longas durante o dia (lazer).  
@@ -77,4 +74,4 @@ Comparação das estações mais usadas para início e fim das viagens.
 
 ## Dados
 - Imagens dos gráficos e dados estão disponibilizados nas ramificações desse repositório.
-- A análise completa está no relatório. 
+- A análise completa está no relatório. [link]https://github.com/amandasanmartin/Viagens-divvy/blob/main/an%C3%A1lise.pdf
