@@ -37,10 +37,14 @@ Este relatório analisa os **dados históricos de viagens** para identificar pad
 ---
 
 ## 3. Estações Mais Populares
-[Estações origem](https://github.com/amandasanmartin/Viagens-divvy/blob/Imagens/origem_resumo1.png)
-[Estações origem](https://github.com/amandasanmartin/Viagens-divvy/blob/Imagens/origem_resumo2.png)
-[Estações destino](https://github.com/amandasanmartin/Viagens-divvy/blob/Imagens/destino_resumo1.png)
-[Estações destino](https://github.com/amandasanmartin/Viagens-divvy/blob/Imagens/destino_resumo2.png)
+[Estações origem](https://github.com/amandasanmartin/Viagens-divvy/blob/Imagens/origem_resumo1.png)  
+
+[Estações origem](https://github.com/amandasanmartin/Viagens-divvy/blob/Imagens/origem_resumo2.png)  
+
+[Estações destino](https://github.com/amandasanmartin/Viagens-divvy/blob/Imagens/destino_resumo1.png)  
+
+[Estações destino](https://github.com/amandasanmartin/Viagens-divvy/blob/Imagens/destino_resumo2.png)  
+
 Comparação das estações mais usadas para início e fim das viagens.  
 
 **Insight:**  
@@ -51,8 +55,10 @@ Comparação das estações mais usadas para início e fim das viagens.
 ---
 
 ## Tipo de Bicicleta
-[Tipos de bicicleta](https://github.com/amandasanmartin/Viagens-divvy/blob/Imagens/bikes_resumo1.png)
-[Tipos de bicicleta](https://github.com/amandasanmartin/Viagens-divvy/blob/Imagens/bikes_resumo1.png)
+[Tipos de bicicleta](https://github.com/amandasanmartin/Viagens-divvy/blob/Imagens/bikes_resumo1.png)  
+
+[Tipos de bicicleta](https://github.com/amandasanmartin/Viagens-divvy/blob/Imagens/bikes_resumo1.png)  
+
 
 
  **Insight:**  
@@ -64,8 +70,10 @@ Comparação das estações mais usadas para início e fim das viagens.
 ---
 
 ## 5. Duração Média ao Longo do Dia
-[Duração média ao longo do dia](https://github.com/amandasanmartin/Viagens-divvy/blob/Imagens/dia_Resumo1.png)
-[Duração média ao longo do dia](https://github.com/amandasanmartin/Viagens-divvy/blob/Imagens/dia_resumo1.png)
+[Duração média ao longo do dia](https://github.com/amandasanmartin/Viagens-divvy/blob/Imagens/dia_Resumo1.png)  
+
+[Duração média ao longo do dia](https://github.com/amandasanmartin/Viagens-divvy/blob/Imagens/dia_resumo1.png)  
+
 
  **Insight:**  
 - Casuais fazem viagens mais longas durante o dia (lazer).  
